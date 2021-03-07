@@ -1,18 +1,25 @@
 body{
     background-color: aqua;
     height: 100%;
+    width: 100%;
+    padding-top:10%;
 }
 
-.wraper{
+.wrapper{
     max-width: 1000px;
     margin: auto;
     background-color: antiquewhite;
     height: 100%;
+    display: flex;
+}
+
+h1{
+    margin: auto;
 }
 
 .resume_info{
     display: flex;
-
+    padding: 0 0 0 40px;
 }
 
 img{
@@ -27,3 +34,12 @@ p{
     padding: 16px 40px 0 0 ;
 }
 
+
+
+footer a{
+    margin: auto;
+}
+
+footer a img{
+    width: 30px;
+}
